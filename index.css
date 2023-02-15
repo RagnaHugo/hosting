@@ -1,0 +1,142 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: "Roboto","San-serif";
+    margin : 0px;
+    box-sizing: border-box;
+
+}
+
+h1{font-size: 3.5em;}
+h2{font-size: 2.7em;}
+h3{font-size: 2em;}
+p{font-size: 1.25em;}
+
+button{
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 10px 20 px;
+    border-radius: 10px;
+    border:1px solid rgba(0, 0,0, 0.3);
+    color:white;
+    background-color: rgb(41, 41, 152);
+
+}
+
+button:hover{
+    background-color: rgb(77, 103, 204);
+}
+
+header{
+    background-color: rgb(241, 241, 241);
+}
+
+header .logo{
+    margin: 0px;
+    padding: 25px;
+    font-weight: bold;
+    font-size: 2em;
+    color: rgb(1, 1, 126);
+
+}
+
+header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    padding-bottom: 5px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+header a{
+    padding: 5px 12px;
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+}
+
+header a:hover{
+    color: rgb(17, 0, 144);
+}
+
+#hero{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 90vh;
+    color: aliceblue;
+    background-image: 
+      url("/paginaweb/IMG/96808923_140573297548570_4923461780516736897_n.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+}
+
+#larita .container{
+   
+    text-align: center;
+    padding: 200px 12px;
+
+}
+
+
+.textcolor{
+    color: rgb(0, 0, 106);
+}
+
+#caracteristicas{
+    background-color: black;
+    text-align: center;
+    color: white;
+
+}
+
+#caracteristicas .container{
+   padding: 100PX;
+}
+#caracteristicas h2{
+    margin-top: 0;
+}
+#caracteristicas .carta{
+
+    background-position: center center;
+    background-size: cover;
+    padding: 50px;
+    margin: 20px;
+    border-radius: 15px;
+
+
+}
+
+
+.carta:first-child{
+background-image: url("/paginaweb/IMG/gato.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center center;
+}
+.carta:nth-child(2){
+background-image: url("/paginaweb/IMG/image.png");
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center center;
+}
+.carta:nth-child(3){
+background-image: url("/paginaweb/IMG/image\ \(1\).png");
+}
+
+
+#algomas .container{
+
+  display: flex;
+
+
+}
+
